@@ -1,0 +1,18 @@
+table{
+    width: 400px;
+    text-align: center;
+    padding: 8px;
+   
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px;
+}
+tr.linha1{
+    background-color: aquamarine;
+}
+th{
+    border: 1px solid black;
+    padding: 8px;
+}

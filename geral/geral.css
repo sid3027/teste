@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    
+}
+
+.cabecalho {
+    display: flex;/*Transforma o elemento selecionado em um contêiner flexível, onde seus elementos filhos podem ser organizados em uma única linha ou em uma coluna, dependendo do valor definido para a propriedade flex-direction.*/
+    flex-direction: row;/*está sendo utilizada para definir que os elementos filhos do elemento .cabecalho serão organizados em uma única linha, horizontalmente. Isso significa que os elementos dentro do cabeçalho serão exibidos lado a lado.*/
+    align-items: center;
+    justify-content: space-around;/*distribui o espaço disponível igualmente entre os elementos filhos, adicionando um espaçamento igual em ambos os lados de cada elemento.*/
+    padding: 24px;
+}
+      
+.cabecalho-imagem {
+    height: 220px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+   /* define o espaçamento entre os elementos filhos.*/
+
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+    padding: 80px;
+}
+
+/*footer*/
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-imagem {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}

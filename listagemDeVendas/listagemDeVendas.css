@@ -1,0 +1,18 @@
+table{
+    width: 600px;
+    text-align: center;
+    padding: 8px;
+    margin: 0 auto;
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px;
+}
+tr{
+    background-color: rgb(234, 234, 234);
+}
+th{
+    border: 1px solid black;
+    padding: 8px;
+}
